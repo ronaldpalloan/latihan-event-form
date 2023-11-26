@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Latihan Form</title>
+	<link rel="stylesheet" href="latform1.css">
+</head>
+<body>
+	
+<div class="container">
+	<h2>Input Event form</h2>
+
+	<form action="" id="formDiri">
+		<label for="nama">Nama Panggilan:</label>
+		<input type="text" id="nama" name="nama" class="nama" maxlength="15" placeholder="Nama panggilan Anda">
+		<label class="sisaKarakter" for="sisaKarakter" id="sisaKarakter">Sisa karakter: <span id="notifSisaKarakter"></span></label>
+
+		<label for="copy"><i>Copy</i> tulisan ini:</label>
+		<input type="text" id="copy" name="copy" value="Hello World!" readonly="">
+
+		<label for="paste"><i>Paste</i> tulisan di sini:</label>
+		<input type="text" id="paste" name="paste" placeholder="Paste sesuatu di sini" placeholder="Submit Data">
+
+		<label for="captcha">Tulis <i>captcha</i> berikut.</label>
+		<img src="https://i.ibb.co/yy59QPB/Captcha.png" alt="captcha">
+		<input type="text" id="captcha" name="captcha" placeholder="Tulis captcha di sini">
+
+		<label for="enter">Tekan Enter pada keyboard jika sudah selesai menulis <i>captcha</i></label>
+		<input type="submit" id="submitButton" name="submit" disabled value="Submit Data">
+	</form>
+</div>
+
+<script src="latform1.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+.container {
+	max-width: 500px;
+	width: 58%;
+	border: 2px solid black;
+	margin: 50px auto;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+h2 {
+	text-align: center;
+}
+
+label {
+	display: inline-block;
+	width: 80%;
+	margin-block: 5px;
+}
+
+input	{
+	display: block;
+	border-radius: 3px;
+	padding: 3px;
+	margin-bottom: 5px;
+}
+
+input.nama {
+	margin-bottom: 0;
+}
+
+.sisaKarakter {
+	visibility: hidden;
+}
